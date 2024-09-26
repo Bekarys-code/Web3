@@ -1,0 +1,30 @@
+<main class="Math"> <!-- Main content area with a class of 'form' for styling -->
+    <form> <!-- Begin a form element -->
+        <fieldset> <!-- Group related elements in a box with a border -->
+            <legend>Personal information</legend> <!-- Caption for the fieldset -->
+            <label for="name">Name </label> <!-- Label for the 'name' input field -->
+            <input id="name" name="new_name" placeholder="Name" type="text" required/> <!-- Input field for the name, with a placeholder and required attribute -->
+            <label for="surname">Surname </label> <!-- Label for the 'surname' input field -->
+            <input id="surname" name="new_surname" placeholder="Surname" type="text" required/> <!-- Input field for the surname, with a placeholder and required attribute -->
+            <label for="age">Age </label> <!-- Label for the 'age' input field -->
+            <input id="age" name="new_age" placeholder="18" type="number" required/> <!-- Input field for age, with a placeholder and required attribute -->
+            <label for="adress">Address </label> <!-- Label for the 'address' input field (note typo in 'adress') -->
+            <input id="adress" name="new_adress" type="text"/> <!-- Input field for the address -->
+            <label for="phone">Phone number </label> <!-- Label for the 'phone' input field -->
+            <input id="phone" name="new_phone" type="tel"/> <!-- Input field for the phone number -->
+            <label for="email">Email </label> <!-- Label for the 'email' input field -->
+            <input id="email" name="new_email" type="email"/> <!-- Input field for the email -->
+        </fieldset>    
+
+        <fieldset> <!-- Group related elements in a box with a border -->
+            <legend>Educational information</legend> <!-- Caption for the fieldset -->
+            <label for="faculty">Faculty </label> <!-- Label for the 'faculty' input field -->
+            <input id="faculty" name="new_faculty" type="text"/> <!-- Input field for the faculty -->
+            <label for="group">Group </label> <!-- Label for the 'group' input field -->
+            <input id="grouop" name="new_group" type="text" required/> <!-- Input field for the group, with a required attribute (note typo in 'grouop') -->
+            <label for="order">Date of enrollment order </label> <!-- Label for the 'order' input field -->
+            <input id="order" name="new_order" type="date"/> <!-- Input field for the date of enrollment order -->
+        </fieldset>
+        <button type="submit">Submit</button> <!-- Submit button for the form -->
+    </form>
+</main>

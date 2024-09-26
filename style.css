@@ -334,7 +334,7 @@ footer a {
 .form form fieldset {
     display: flex; /* Use flexbox for the fieldset layout */
     flex-direction: column; /* Arrange fieldset elements in a column */
-    width: 50%; /* Set the width of the fieldset to 50% of the container */
+    width: 700%; /* Set the width of the fieldset to 50% of the container */
     margin: auto; /* Center the fieldset horizontally */
     margin-top: 30px; /* Add a margin of 30px to the top */
     margin-bottom: 10px; /* Add a margin of 10px to the bottom */
